@@ -1,0 +1,28 @@
+#about-me-wrap {
+    width: 100vw;
+    height: 50vh;
+    align-items: center;
+    background-color: rgb(60, 60, 60);
+}
+
+#pic-and-text-wrap {
+    width: 800px;
+    min-width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid green; */
+}
+
+#my-pic {
+    width: auto;
+    height: 300px;
+    border-radius: 50px;
+}
+
+#text-wrap {
+    width: 350px;
+    min-width: 350px;
+    line-height: 25px;
+    color: rgba(255,255,255,0.8)
+}
