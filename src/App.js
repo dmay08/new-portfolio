@@ -3,6 +3,7 @@ import Navigation from './components/Navigation/Navigation'
 import NameHeader from './components/NameHeader/NameHeader'
 import AboutMe from './components/AboutMe/AboutMe'
 import Skills from './components/Skills/Skills'
+import Birds from './components/Birds'
 import './App.css';
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <NameHeader />
         <AboutMe />
         <Skills />
+        <Birds />
       </div>
     );
   }
