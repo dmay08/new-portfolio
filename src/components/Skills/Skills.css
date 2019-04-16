@@ -16,8 +16,8 @@
 
 
 #inner-wrap {
-    width: 570px;
-    padding: 10px;
+    width: 560px;
+    padding: 5px;
     display: flex;
     flex-wrap: wrap;
     overflow: scroll;
@@ -31,7 +31,7 @@
     flex-direction: column;
     margin: 5px;
     text-align: center;
-    background-color: lightgrey;
+    background-color: rgb(210, 211, 214);
     border-radius: 5px;;
     padding: 10px;
     height: 90px;
