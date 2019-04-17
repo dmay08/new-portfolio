@@ -23,10 +23,10 @@ class Navigation extends React.Component {
                     <a class="hvr-icon-buzz logo">DM</a>
                     <ul class="main-nav" id="js-menu">
                         <li>
-                            <a href="#about" class="nav-links hvr-underline-from-center">About</a>
+                            <a href="#about-me-wrap" class="nav-links hvr-underline-from-center">About</a>
                         </li>
                         <li>
-                            <a href="#projects" class="nav-links hvr-underline-from-center">Projects</a>
+                            <a href="#my-projects-wrap" class="nav-links hvr-underline-from-center">Projects</a>
                         </li>
                         <li>
                             <a href="#contact" class="nav-links hvr-underline-from-center">Contact</a>

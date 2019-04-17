@@ -3,7 +3,7 @@ import './MyProjects.css'
 
 const MyProject = () => {
     return (
-        <div className="my-projects-wrap">
+        <div id="my-projects-wrap">
 
             <div className="my-projects-title">
                 <h1>My Projects</h1>
