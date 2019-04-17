@@ -12,10 +12,14 @@
     text-align: center;
 }
 
-.slide-in-blurred-top {
+.my-name {
     width: 500px;
     box-shadow: none;
     padding-bottom: 15px;
+}
+
+.my-name:hover {
+    box-shadow: none;
 }
 
 #name-wrap h2 {
@@ -27,4 +31,3 @@
     display: flex;
     justify-content: center;
 }
-
