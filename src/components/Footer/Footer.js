@@ -10,7 +10,7 @@ const Footer = () => {
         <div id="contact">
             <h1 id="contact-title">Contact</h1>
             <a className="email hvr-underline-from-center" href="mailto:dmayasich08@gmail.com">dmayasich08@gmail.com</a>
-            <div>
+            <div className="contact-icons">
                 <a className="fab fa-github-square hvr-grow" style={contactIcon} href="https://github.com/dmay08" aria-hidden="true"></a>
                 <a className="fab fa-linkedin hvr-grow" style={contactIcon} href="https://www.linkedin.com/in/dannymayasich/"></a>
                 <a className="fab fa-instagram hvr-grow" style={contactIcon} href="https://www.instagram.com/lapsedtraveler/"></a>
