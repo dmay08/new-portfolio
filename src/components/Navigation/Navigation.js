@@ -16,20 +16,20 @@ class Navigation extends React.Component {
 
         return (
             <div>
-                <nav class="navbar">
-                    <span class="navbar-toggle" id="js-navbar-toggle">
-                        <i class="fas fa-bars"></i>
+                <nav className="navbar">
+                    <span className="navbar-toggle" id="js-navbar-toggle">
+                        <i className="fas fa-bars"></i>
                     </span>
-                    <a class="hvr-icon-buzz logo">DM</a>
-                    <ul class="main-nav" id="js-menu">
+                    <a className="hvr-icon-buzz logo">DM</a>
+                    <ul className="main-nav" id="js-menu">
                         <li>
-                            <a href="#about-me-wrap" class="nav-links hvr-underline-from-center">About</a>
+                            <a href="#about-me-wrap" className="nav-links hvr-underline-from-center">About</a>
                         </li>
                         <li>
-                            <a href="#my-projects-wrap" class="nav-links hvr-underline-from-center">Projects</a>
+                            <a href="#my-projects-wrap" className="nav-links hvr-underline-from-center">Projects</a>
                         </li>
                         <li>
-                            <a href="#contact" class="nav-links hvr-underline-from-center">Contact</a>
+                            <a href="#contact" className="nav-links hvr-underline-from-center">Contact</a>
                         </li>
                     </ul>
                 </nav>

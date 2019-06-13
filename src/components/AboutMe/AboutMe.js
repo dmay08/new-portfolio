@@ -5,8 +5,8 @@ const AboutMe = () => {
     return (
         <div id="about-me-wrap">
                 <div id="pic-and-text-wrap">
-                    <img id="my-pic" class="hvr-rotate" src={require('../Images/me.jpg')} />
-                    <div id="text-wrap" class="hvr-forward">
+                    <img id="my-pic" className="hvr-rotate" src={require('../Images/me.jpg')} />
+                    <div id="text-wrap" className="hvr-forward">
                         <h2>About me...</h2>
                         <br/>
                         <p>I'm a Front End / Full Stack Developer with a passion
@@ -25,7 +25,7 @@ const AboutMe = () => {
                 </div>
                 <div></div>
             <br />
-            {/* <a class="fab fa-instagram" style={"font-size:36px"} href="https://www.instagram.com/lapsedtraveler/" aria-hidden="true"></a> */}
+            {/* <a className="fab fa-instagram" style={"font-size:36px"} href="https://www.instagram.com/lapsedtraveler/" aria-hidden="true"></a> */}
             <br />
         </div>
     )
