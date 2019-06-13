@@ -6,7 +6,7 @@ const NameHeader = () => {
         <div className="main">
             <div id="name-wrap">
                 <img className="my-name" src="https://i.imgur.com/4Br6mmd.png"/>
-                <h2>Front End / Full Stack Developer</h2>
+                <h2>Front End Developer</h2>
             </div>
         </div>
     )

@@ -9,7 +9,7 @@ const AboutMe = () => {
                     <div id="text-wrap" className="hvr-forward">
                         <h2>About me...</h2>
                         <br/>
-                        <p>I'm a Front End / Full Stack Developer with a passion
+                        <p>Front End Developer at Lightstorm Entertainment with a passion
                             for art and science. Coding allows me to
                             combine my love of design with the technical
                             aspects of programming to create visually
