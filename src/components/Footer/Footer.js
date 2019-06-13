@@ -9,11 +9,11 @@ const Footer = () => {
     return (
         <div id="contact">
             <h1 id="contact-title">Contact</h1>
-            <a class="email hvr-underline-from-center" href="mailto:dmayasich08@gmail.com">dmayasich08@gmail.com</a>
+            <a className="email hvr-underline-from-center" href="mailto:dmayasich08@gmail.com">dmayasich08@gmail.com</a>
             <div>
-                <a class="fab fa-github-square hvr-grow" style={contactIcon} href="https://github.com/dmay08" aria-hidden="true"></a>
-                <a class="fab fa-linkedin hvr-grow" style={contactIcon} href="https://www.linkedin.com/in/dannymayasich/"></a>
-                <a class="fab fa-instagram hvr-grow" style={contactIcon} href="https://www.instagram.com/lapsedtraveler/"></a>
+                <a className="fab fa-github-square hvr-grow" style={contactIcon} href="https://github.com/dmay08" aria-hidden="true"></a>
+                <a className="fab fa-linkedin hvr-grow" style={contactIcon} href="https://www.linkedin.com/in/dannymayasich/"></a>
+                <a className="fab fa-instagram hvr-grow" style={contactIcon} href="https://www.instagram.com/lapsedtraveler/"></a>
             </div>
 
 
