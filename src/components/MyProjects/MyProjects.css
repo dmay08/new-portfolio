@@ -30,7 +30,9 @@
 }
 
 .info {
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    max-height: 267px;
 }
 
 .image {
@@ -40,6 +42,7 @@
 .flip {
     align-items: flex-end !important;
     text-align: right;
+    padding-left: 20px;
 }
 
 
@@ -103,6 +106,11 @@ img {
     .project-and-info-wrap {
         width: 720px;
     }
+
+    /* .info {
+        justify-content: space-between;
+        max-height: 267px;
+    } */
 
     #pink-desert {
         padding-right: 13px;
