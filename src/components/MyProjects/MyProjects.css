@@ -15,7 +15,7 @@
 .project-and-info-wrap {
     height: 300px;
     width: 900px;
-    /* border: 1px solid black; */
+    /* border: 3px solid black; */
     display: flex;
     justify-content: space-between;
 }
@@ -25,7 +25,7 @@
     height: 300px;
     display: flex;
     flex-direction: column;
-    /* border: 1px solid black; */
+    /* border: 1px solid blue; */
     justify-content: center;
 }
 
@@ -72,10 +72,9 @@ img {
 }
 
 
-/* ======================================================================= /*
-/* ============================= CSS Effects ============================= /*
-/* ======================================================================= /*
-
+/* ======================================================================= */
+/* ============================= CSS Effects ============================= */
+/* ======================================================================= */
 
 /*========================= 'Grow' ====================== */
 
@@ -95,32 +94,17 @@ img {
     transform: scale(1.1);
 }
 
-/*==================== 'Forward (slide right)' ================= */
+/* ======================================================================= */
+/* ============================ Media Queries ============================ */
+/* ======================================================================= */
 
-/* .hvr-forward {
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-}
-.hvr-forward:hover, .hvr-forward:focus, .hvr-forward:active {
-    -webkit-transform: translateX(8px);
-    transform: translateX(8px);
-}
+@media (max-width: 1000px) {
 
-/*==================== 'Forward (slide left)' ================= */
+    .project-and-info-wrap {
+        width: 720px;
+    }
 
-/* .hvr-backward {
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
+    #pink-desert {
+        padding-right: 13px;
+    }
 }
-.hvr-backward:hover, .hvr-backward:focus, .hvr-backward:active {
-    -webkit-transform: translateX(-8px);
-    transform: translateX(-8px);
-}  */

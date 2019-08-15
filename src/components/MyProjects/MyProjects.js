@@ -51,7 +51,7 @@ const MyProject = () => {
                 </div>
             </div>
             <div className="project-and-info-wrap">
-                <div className="project info">
+                <div className="project info" id="pink-desert">
                     <h2>PINK Desert Clothing Co.</h2>
                     <p>PINK Desert Clothing Co. is an online storefront for a
                         t-shirt company. Visitors can sign
