@@ -9,7 +9,7 @@ const MyProject = () => {
                 <h1>My Projects</h1>
             </div>
 
-            <div className="project-and-info-wrap">
+            <div className="project-and-info-wrap reverse">
                 <div className="project info">
                     <h2>Ask a Med Student</h2>
                     <p>A platform to connect people interested in medical school with current medical students. Users can submit questions that medical students can respond to.</p>
@@ -50,7 +50,7 @@ const MyProject = () => {
                     </section>
                 </div>
             </div>
-            <div className="project-and-info-wrap">
+            <div className="project-and-info-wrap reverse">
                 <div className="project info" id="pink-desert">
                     <h2>PINK Desert Clothing Co.</h2>
                     <p>PINK Desert Clothing Co. is an online storefront for a

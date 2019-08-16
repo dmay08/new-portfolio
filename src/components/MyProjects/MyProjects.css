@@ -101,7 +101,7 @@ img {
 /* ============================ Media Queries ============================ */
 /* ======================================================================= */
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px) and (min-width: 781px) {
 
     .project-and-info-wrap {
         width: 720px;
@@ -109,5 +109,45 @@ img {
 
     #pink-desert {
         padding-right: 13px;
+    }
+}
+
+@media (max-width: 780px) {
+
+    #my-projects-wrap {
+        height: 2500px;
+    }
+
+    .reverse {
+        flex-direction: column-reverse !important;
+        align-items: center;
+        height: 487px;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .project-and-info-wrap {
+        flex-direction: column;
+        align-items: center;
+        height: 487px;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .project {
+        height: 200px;
+    }
+
+    .info {
+        align-items: center;
+    }
+
+    section {
+        text-align: center;
+        width: 300px;
+    }
+
+    #pink-desert {
+        padding-right: none !important;
     }
 }
