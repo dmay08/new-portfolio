@@ -28,11 +28,12 @@
 }
 
 
-/* ======================================================================= /*
-/* ============================= CSS Effects ============================= /*
-/* ======================================================================= /*
+/* ======================================================================= */
+/* ============================ Media Queries ============================ */
+/* ======================================================================= */
 
-
+/* CSS effects */
+@media (min-width: 1000px) {
 
 /*========================= 'Rotate' ====================== */
 
@@ -64,19 +65,37 @@
     transition-duration: 0.3s;
     -webkit-transition-property: transform;
     transition-property: transform;
-  }
-  .hvr-forward:hover, .hvr-forward:focus, .hvr-forward:active {
+}
+.hvr-forward:hover, .hvr-forward:focus, .hvr-forward:active {
     -webkit-transform: translateX(8px);
     transform: translateX(8px);
-  }
+}
 
-/* ======================================================================= */
-/* ============================ Media Queries ============================ */
-/* ======================================================================= */
+}
 
-  @media (max-width: 1000px) {
+@media (max-width: 1000px) {
 
     #pic-and-text-wrap {
         min-width: 722px;
+    }
+}
+
+@media (max-width: 780px) and (min-width: 320px) {
+
+    #pic-and-text-wrap {
+        flex-direction: column;
+
+    }
+
+    #my-pic {
+        margin-left: 0;
+        height: 250px;
+        margin-bottom: 23px;
+    }
+
+    #text-wrap {
+        text-align: center;
+        line-height: 18px;
+        font-size: 15px;
     }
 }
