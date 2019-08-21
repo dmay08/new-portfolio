@@ -42,7 +42,7 @@ const MyProject = () => {
                     <p>The hot-potato-style-trivia-drinking-game!
                         Two teams face off to answer as many trivia questions as
                         possible before the timer runs out. Choose a wrong answer?
-                        Drink! Timer runs out & you’re holding the phone? Drink!</p>
+                        Drink! Timer goes off in your hands? Drink!</p>
                     <p>HTML | CSS | JavaScript | MongoDB | Express | NodeJS | API </p>
                     <section>
                         <a class="button" href="https://github.com/dmay08/fizz-quiz">View Code</a>
@@ -85,7 +85,7 @@ const MyProject = () => {
                 </div>
                 <div className="project info flip">
                     <h2>Danny's Hangman</h2>
-                    <p>Danny's Hangman is a one-player browser game based
+                    <p>A one-player browser game based
                         on the traditional two-player hangman game. User
                         chooses a category and clicks individual letter buttons
                         to guess the randomly generated word within 6 guesses.</p>

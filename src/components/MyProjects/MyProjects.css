@@ -112,7 +112,7 @@ img {
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 780px) and (min-width: 440px) {
 
     #my-projects-wrap {
         height: 2500px;
@@ -135,12 +135,17 @@ img {
     }
 
     .project {
-        height: 200px;
+        max-height: 200px;
     }
 
     .info {
-        align-items: center;
+        align-items: center!important;
     }
+    
+    .project p {
+        text-align: center;
+    }
+    
 
     section {
         text-align: center;
