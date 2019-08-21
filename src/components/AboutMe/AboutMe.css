@@ -84,6 +84,7 @@
 
     #pic-and-text-wrap {
         flex-direction: column;
+        min-width: 0;
 
     }
 
