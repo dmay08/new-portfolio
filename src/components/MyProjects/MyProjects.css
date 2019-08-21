@@ -112,7 +112,7 @@ img {
     }
 }
 
-@media (max-width: 780px) and (min-width: 440px) {
+@media (max-width: 780px) and (min-width: 320px) { 
 
     #my-projects-wrap {
         height: 2500px;
