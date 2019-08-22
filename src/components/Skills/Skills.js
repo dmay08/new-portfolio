@@ -1,11 +1,13 @@
 import React from 'react'
 import './Skills.css'
 
-const iconStyle = { // inline styling for icons
+const largeIconStyle = { // inline styling for icons
     fontSize: '46px'
 }
 
-// let width = window.innerWidth
+const smallIconStyle = {
+    fontSize: '25px'
+}
 
 class Skills extends React.Component {
 
@@ -47,92 +49,92 @@ class Skills extends React.Component {
                     <div className="five-icons">
                         <div className="icon-and-title hvr-radial-out">
                             <p>HTML5</p>
-                            <i style={iconStyle} class="devicon-html5-plain colored"></i>
+                            <i style={this.state.width >= 780 ? largeIconStyle: smallIconStyle} class="devicon-html5-plain colored"></i>
                         </div>
                         <div className="icon-and-title hvr-radial-out">
                             <p>CSS3</p>
-                            <i style={iconStyle} class="devicon-css3-plain colored"></i>
+                            <i style={this.state.width >= 780 ? largeIconStyle: smallIconStyle} class="devicon-css3-plain colored"></i>
                         </div>
                         <div className="icon-and-title hvr-radial-out">
                             <p>JavaScript</p>
-                            <i style={iconStyle} class="devicon-javascript-plain"></i>
+                            <i style={this.state.width >= 780 ? largeIconStyle: smallIconStyle} class="devicon-javascript-plain"></i>
                         </div>
                         <div className="icon-and-title hvr-radial-out">
                             <p>React</p>
-                            <i style={iconStyle} class="devicon-react-original colored"></i>
+                            <i style={this.state.width >= 780 ? largeIconStyle: smallIconStyle} class="devicon-react-original colored"></i>
                         </div>
                         <div className="icon-and-title hvr-radial-out">
                             <p>Node.js</p>
-                            <i style={iconStyle} class="devicon-nodejs-plain colored"></i>
+                            <i style={this.state.width >= 780 ? largeIconStyle: smallIconStyle} class="devicon-nodejs-plain colored"></i>
                         </div>
                     </div>
 
                     <div className="five-icons">
                         <div className="icon-and-title hvr-radial-out">
                             <p>Python</p>
-                            <i style={iconStyle} class="devicon-python-plain"></i>
+                            <i style={this.state.width >= 780 ? largeIconStyle: smallIconStyle} class="devicon-python-plain"></i>
                         </div>
                         <div className="icon-and-title hvr-radial-out">
                             <p>Express</p>
-                            <i style={iconStyle} class="devicon-express-original"></i>
+                            <i style={this.state.width >= 780 ? largeIconStyle: smallIconStyle} class="devicon-express-original"></i>
                         </div>
                         <div className="icon-and-title hvr-radial-out">
                             <p>jQuery</p>
-                            <i style={iconStyle} class="devicon-jquery-plain-wordmark"></i>
+                            <i style={this.state.width >= 780 ? largeIconStyle: smallIconStyle} class="devicon-jquery-plain-wordmark"></i>
                         </div>
                         <div className="icon-and-title hvr-radial-out">
                             <p>Angular</p>
-                            <i style={iconStyle} class="devicon-angularjs-plain colored"></i>
+                            <i style={this.state.width >= 780 ? largeIconStyle: smallIconStyle} class="devicon-angularjs-plain colored"></i>
                         </div>
                         <div className="icon-and-title hvr-radial-out">
                             <p>Django</p>
-                            <i style={iconStyle} class="devicon-django-line"></i>
+                            <i style={this.state.width >= 780 ? largeIconStyle: smallIconStyle} class="devicon-django-line"></i>
                         </div>
                     </div>
 
                     <div className="five-icons">
                         <div className="icon-and-title hvr-radial-out">
                             <p>MongoDB</p>
-                            <i style={iconStyle} class="devicon-mongodb-plain colored"></i>
+                            <i style={this.state.width >= 780 ? largeIconStyle: smallIconStyle} class="devicon-mongodb-plain colored"></i>
                         </div>
                         <div className="icon-and-title hvr-radial-out">
                             <p>PostgreSQL</p>
-                            <i style={iconStyle} class="devicon-postgresql-plain colored"></i>
+                            <i style={this.state.width >= 780 ? largeIconStyle: smallIconStyle} class="devicon-postgresql-plain colored"></i>
                         </div>
                         <div className="icon-and-title hvr-radial-out">
                             <p>AWS</p>
-                            <i style={iconStyle} class="devicon-amazonwebservices-original colored"></i>
+                            <i style={this.state.width >= 780 ? largeIconStyle: smallIconStyle} class="devicon-amazonwebservices-original colored"></i>
                         </div>
                         <div className="icon-and-title hvr-radial-out">
                             <p>Bootstrap</p>
-                            <i style={iconStyle} class="devicon-bootstrap-plain"></i>
+                            <i style={this.state.width >= 780 ? largeIconStyle: smallIconStyle} class="devicon-bootstrap-plain"></i>
                         </div>
                         <div className="icon-and-title hvr-radial-out">
                             <p>Git</p>
-                            <i style={iconStyle} class="devicon-git-plain colored"></i>
+                            <i style={this.state.width >= 780 ? largeIconStyle: smallIconStyle} class="devicon-git-plain colored"></i>
                         </div>
                     </div>
 
                     <div className="five-icons">
                         <div className="icon-and-title hvr-radial-out">
                             <p>Gitlab</p>
-                            <i style={iconStyle} class="devicon-gitlab-plain colored"></i>
+                            <i style={this.state.width >= 780 ? largeIconStyle: smallIconStyle} class="devicon-gitlab-plain colored"></i>
                         </div>
                         <div className="icon-and-title hvr-radial-out">
                             <p>GitHub</p>
-                            <i style={iconStyle} class="devicon-github-plain"></i>
+                            <i style={this.state.width >= 780 ? largeIconStyle: smallIconStyle} class="devicon-github-plain"></i>
                         </div>
                         <div className="icon-and-title hvr-radial-out">
                             <p>Slack</p>
-                            <i style={iconStyle} class="devicon-slack-plain"></i>
+                            <i style={this.state.width >= 780 ? largeIconStyle: smallIconStyle} class="devicon-slack-plain"></i>
                         </div>
                         <div className="icon-and-title hvr-radial-out">
                             <p>Heroku</p>
-                            <i style={iconStyle} class="devicon-heroku-line colored"></i>
+                            <i style={this.state.width >= 780 ? largeIconStyle: smallIconStyle} class="devicon-heroku-line colored"></i>
                         </div>
                         <div className="icon-and-title hvr-radial-out">
                             <p>VS Code</p>
-                            <i style={iconStyle} class="devicon-visualstudio-plain colored"></i>
+                            <i style={this.state.width >= 780 ? largeIconStyle: smallIconStyle} class="devicon-visualstudio-plain colored"></i>
                         </div>
                     </div>
                 </div>
