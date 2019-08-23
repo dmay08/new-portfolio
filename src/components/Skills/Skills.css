@@ -98,4 +98,31 @@
 /* ============================ Media Queries ============================ */
 /* ======================================================================= */
 
-@media (max-width: 1000px) and (min-width: 781px) 
+@media (max-width: 1000px) and (min-width: 781px) {
+  
+}
+
+@media (max-width: 580px) {
+  .icon-and-title {
+    height: 50px;
+    width: 50px;
+  }
+
+  #inner-wrap {
+    width: 310px;
+  }
+
+  .icon-and-title {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .icon-and-title p {
+    display: none;
+  }
+
+  #skills-wrap {
+    height: 400px;
+  }
+}
