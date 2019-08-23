@@ -42,3 +42,15 @@
         height: 200px;
     }
 }
+
+@media (max-width: 420px) {
+
+    .my-name {
+        width: 275px;
+        padding-bottom: 10px;
+    }
+
+    #name-wrap h2 {
+        font-size: 18px;
+    }
+}
