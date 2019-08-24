@@ -80,7 +80,8 @@
     }
 }
 
-@media (max-width: 780px) and (min-width: 320px) {
+/* @media (max-width: 780px) and (min-width: 320px) { */
+@media (max-width: 780px) {
 
     #pic-and-text-wrap {
         flex-direction: column;
@@ -99,4 +100,14 @@
         line-height: 18px;
         font-size: 15px;
     }
+}
+
+@media (max-width: 420px) {
+    
+    #text-wrap {
+        font-size: 13px;
+        min-width: 300px;
+        width: 300px;
+    }
+
 }

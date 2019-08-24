@@ -144,6 +144,10 @@ img {
         align-items: center!important;
     }
     
+    /* .project.info.flip {
+        padding-left: none !important;
+    } */
+
     .project p {
         text-align: center;
     }
@@ -155,7 +159,11 @@ img {
     }
 
     #pink-desert {
-        padding-right: none !important;
+        padding-right: 0 !important;
+    }
+
+    .flip {
+        padding-left: 0 !important;
     }
 }
 
@@ -170,6 +178,11 @@ img {
         width: 300px;
     }
 
+    .project {
+        max-height: 180px;
+        width: 299px;
+    }
+
     .project p {
         font-size: 13px;
     }
@@ -178,7 +191,19 @@ img {
         font-size: 22px;
     }
 
+    .project section {
+        width: 305px;
+    }
+
     .project-and-info-wrap {
-        height: 430px;
+        height: 400px;
+    }
+
+    .my-projects-title {
+        margin-bottom: -76px;
+    }
+
+    #my-projects-wrap {
+        height: 2100px;
     }
 }
