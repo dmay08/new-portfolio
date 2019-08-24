@@ -110,9 +110,11 @@ img {
     #pink-desert {
         padding-right: 13px;
     }
+
 }
 
-@media (max-width: 780px) and (min-width: 320px) { 
+/* @media (max-width: 780px) and (min-width: 320px) {  */
+@media (max-width: 780px) { 
 
     #my-projects-wrap {
         height: 2500px;
@@ -154,5 +156,29 @@ img {
 
     #pink-desert {
         padding-right: none !important;
+    }
+}
+
+@media (max-width: 580px) {
+
+    .image-wrap {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-wrap img {
+        width: 300px;
+    }
+
+    .project p {
+        font-size: 13px;
+    }
+
+    .project h2 {
+        font-size: 22px;
+    }
+
+    .project-and-info-wrap {
+        height: 430px;
     }
 }
