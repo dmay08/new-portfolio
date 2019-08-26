@@ -1,14 +1,14 @@
 {
-  "main.css": "dannymayasich.com/static/css/main.328c0ccf.chunk.css",
-  "main.js": "dannymayasich.com/static/js/main.3d890355.chunk.js",
-  "main.js.map": "dannymayasich.com/static/js/main.3d890355.chunk.js.map",
-  "runtime~main.js": "dannymayasich.com/static/js/runtime~main.ac7d5ee2.js",
-  "runtime~main.js.map": "dannymayasich.com/static/js/runtime~main.ac7d5ee2.js.map",
-  "static/js/2.d6a534e5.chunk.js": "dannymayasich.com/static/js/2.d6a534e5.chunk.js",
-  "static/js/2.d6a534e5.chunk.js.map": "dannymayasich.com/static/js/2.d6a534e5.chunk.js.map",
-  "index.html": "dannymayasich.com/index.html",
-  "precache-manifest.e1dd082029fd29e7adafd035b8f08b62.js": "dannymayasich.com/precache-manifest.e1dd082029fd29e7adafd035b8f08b62.js",
-  "service-worker.js": "dannymayasich.com/service-worker.js",
-  "static/css/main.328c0ccf.chunk.css.map": "dannymayasich.com/static/css/main.328c0ccf.chunk.css.map",
-  "static/media/me.jpg": "dannymayasich.com/static/media/me.1c3c5981.jpg"
+  "main.css": "/static/css/main.328c0ccf.chunk.css",
+  "main.js": "/static/js/main.3d890355.chunk.js",
+  "main.js.map": "/static/js/main.3d890355.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+  "static/js/2.d6a534e5.chunk.js": "/static/js/2.d6a534e5.chunk.js",
+  "static/js/2.d6a534e5.chunk.js.map": "/static/js/2.d6a534e5.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.5bd96390cdec44a49588b17cb3d278e2.js": "/precache-manifest.5bd96390cdec44a49588b17cb3d278e2.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.328c0ccf.chunk.css.map": "/static/css/main.328c0ccf.chunk.css.map",
+  "static/media/me.jpg": "/static/media/me.1c3c5981.jpg"
 }
