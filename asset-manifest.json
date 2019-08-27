@@ -1,14 +1,14 @@
 {
-  "main.css": "/new-portfolio/static/css/main.328c0ccf.chunk.css",
-  "main.js": "/new-portfolio/static/js/main.3d890355.chunk.js",
-  "main.js.map": "/new-portfolio/static/js/main.3d890355.chunk.js.map",
-  "runtime~main.js": "/new-portfolio/static/js/runtime~main.69dd43ee.js",
-  "runtime~main.js.map": "/new-portfolio/static/js/runtime~main.69dd43ee.js.map",
-  "static/js/2.d6a534e5.chunk.js": "/new-portfolio/static/js/2.d6a534e5.chunk.js",
-  "static/js/2.d6a534e5.chunk.js.map": "/new-portfolio/static/js/2.d6a534e5.chunk.js.map",
-  "index.html": "/new-portfolio/index.html",
-  "precache-manifest.98fe3dab758258c6482f6285b684e1a1.js": "/new-portfolio/precache-manifest.98fe3dab758258c6482f6285b684e1a1.js",
-  "service-worker.js": "/new-portfolio/service-worker.js",
-  "static/css/main.328c0ccf.chunk.css.map": "/new-portfolio/static/css/main.328c0ccf.chunk.css.map",
-  "static/media/me.jpg": "/new-portfolio/static/media/me.1c3c5981.jpg"
+  "main.css": "dannymayasich.com/static/css/main.328c0ccf.chunk.css",
+  "main.js": "dannymayasich.com/static/js/main.3d890355.chunk.js",
+  "main.js.map": "dannymayasich.com/static/js/main.3d890355.chunk.js.map",
+  "runtime~main.js": "dannymayasich.com/static/js/runtime~main.ac7d5ee2.js",
+  "runtime~main.js.map": "dannymayasich.com/static/js/runtime~main.ac7d5ee2.js.map",
+  "static/js/2.d6a534e5.chunk.js": "dannymayasich.com/static/js/2.d6a534e5.chunk.js",
+  "static/js/2.d6a534e5.chunk.js.map": "dannymayasich.com/static/js/2.d6a534e5.chunk.js.map",
+  "index.html": "dannymayasich.com/index.html",
+  "precache-manifest.e1dd082029fd29e7adafd035b8f08b62.js": "dannymayasich.com/precache-manifest.e1dd082029fd29e7adafd035b8f08b62.js",
+  "service-worker.js": "dannymayasich.com/service-worker.js",
+  "static/css/main.328c0ccf.chunk.css.map": "dannymayasich.com/static/css/main.328c0ccf.chunk.css.map",
+  "static/media/me.jpg": "dannymayasich.com/static/media/me.1c3c5981.jpg"
 }
