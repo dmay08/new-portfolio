@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "dannymayasich.com/precache-manifest.e1dd082029fd29e7adafd035b8f08b62.js"
+  "dmay08.github.io/new-portfolio/precache-manifest.72b2d399716b2e2cb7b4a346b7a5a244.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("dannymayasich.com/index.html", {
+workbox.routing.registerNavigationRoute("dmay08.github.io/new-portfolio/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
