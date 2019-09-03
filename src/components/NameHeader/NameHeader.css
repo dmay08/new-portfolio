@@ -10,20 +10,32 @@
 
 #name-wrap {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .my-name {
     width: 500px;
     box-shadow: none;
-    padding-bottom: 15px;
+    /* padding-bottom: 5px; */
 }
 
 .my-name:hover {
     box-shadow: none;
 }
 
+#line {
+    width: 300px;
+    border-bottom: 1px solid black;
+    padding-top: 15px;
+}
+
 #name-wrap h2 {
-    color: rgb(100, 100, 100);
+    color: black;
+    font-weight: 300;
+    padding-top: 15px;
 }
 
 #about-me-wrap {
@@ -41,16 +53,26 @@
     .main {
         height: 200px;
     }
+
+    #line {
+        width: 270px;
+
+    }
 }
 
 @media (max-width: 420px) {
 
     .my-name {
         width: 275px;
-        padding-bottom: 10px;
+        /* padding-bottom: 10px; */
     }
 
     #name-wrap h2 {
         font-size: 18px;
+    }
+
+    #line {
+        width: 200px;
+
     }
 }

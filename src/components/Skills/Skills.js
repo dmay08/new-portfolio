@@ -18,7 +18,6 @@ class Skills extends React.Component {
 
 
     componentDidMount() {
-        // console.log(this.state.width)
         window.addEventListener("resize", this.updateDimensions)
     }
 
@@ -31,10 +30,8 @@ class Skills extends React.Component {
         let iconSize
         if (this.state.width > 580) {
             iconSize = '46px'
-            console.log('bigger')
         } else {
             iconSize = '10px'
-            console.log('smaller')
         }
 
         return (

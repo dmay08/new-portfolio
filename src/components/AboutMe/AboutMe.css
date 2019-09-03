@@ -16,7 +16,7 @@
 #my-pic {
     width: auto;
     height: 300px;
-    border-radius: 50px;
+    border-radius: 100%;
     margin-left: 45px;
 }
 
@@ -103,7 +103,7 @@
 }
 
 @media (max-width: 420px) {
-    
+ 
     #text-wrap {
         font-size: 13px;
         min-width: 300px;
