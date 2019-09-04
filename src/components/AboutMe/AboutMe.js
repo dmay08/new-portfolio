@@ -7,13 +7,13 @@ const AboutMe = () => {
                 <div id="pic-and-text-wrap">
                     <img id="my-pic" className="hvr-rotate" src={require('../Images/me.jpg')} />
                     <div id="text-wrap" className="hvr-forward">
-                        <h2>About me</h2>
+                        <h1>About me</h1>
                         <br/>
                         <p>Front End Developer at Lightstorm Entertainment with a passion
                             for art and science. Coding allows me to
                             combine my love of design with the technical
                             aspects of programming to create visually
-                            appealing and functional web applications.
+                            appealing and highly performant web applications.
                         </p>
                         <br/>
                         <p> Prior to coding,

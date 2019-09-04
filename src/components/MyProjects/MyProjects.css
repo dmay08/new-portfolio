@@ -65,6 +65,7 @@
 
 .methods {
     font-weight: bold;
+    color: rgb(80, 80, 80)
 }
 
 section {
@@ -197,7 +198,7 @@ img {
     }
 
     .project section {
-        width: 305px;
+        width: 250px;
     }
 
     .project-and-info-wrap {
