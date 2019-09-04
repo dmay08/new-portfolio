@@ -13,7 +13,7 @@ class Skills extends React.Component {
 
     state = {
         width: window.innerWidth,
-        name: 'danny'
+        // name: 'danny'
     }
 
 

@@ -105,9 +105,13 @@
 @media (max-width: 420px) {
  
     #text-wrap {
-        font-size: 13px;
+        /* font-size: 13px; */
         min-width: 300px;
         width: 300px;
+    }
+
+    .text {
+        font-size: 13px;
     }
 
 }

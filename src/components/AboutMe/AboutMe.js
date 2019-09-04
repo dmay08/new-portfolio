@@ -9,14 +9,14 @@ const AboutMe = () => {
                     <div id="text-wrap" className="hvr-forward">
                         <h1>About me</h1>
                         <br/>
-                        <p>Front End Developer at Lightstorm Entertainment with a passion
+                        <p className="text">Front End Developer at Lightstorm Entertainment with a passion
                             for art and science. Coding allows me to
-                            combine my love of design with the technical
+                            combine my love of design className="text" with the technical
                             aspects of programming to create visually
                             appealing and highly performant web applications.
                         </p>
                         <br/>
-                        <p> Prior to coding,
+                        <p className="text"> Prior to coding,
                             I was a medical student until I "saw the light" and
                             switched over to a challenging and exciting career in web development.
                             Best decision I ever made.
