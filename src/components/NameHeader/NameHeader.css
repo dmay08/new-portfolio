@@ -1,7 +1,7 @@
 .main {
     height: 500px;
     background: #C9CCD3;
-    background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0.79) 0%, rgba(0,0,0,0.50) 100%);
+    background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0.6) 0%, rgba(0,0,0,0.50) 100%);
     background-blend-mode: lighten;
     justify-content: center;
     display: flex;
@@ -28,7 +28,8 @@
 
 #line {
     width: 300px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(60, 60, 60, .5);;
+    height: 10px;
     padding-top: 15px;
 }
 
@@ -50,8 +51,12 @@
         width: 350px;
     }
 
+    #name-wrap h2 {
+        font-size: 18px;
+    }
+
     .main {
-        height: 200px;
+        height: 300px;
     }
 
     #line {
@@ -68,7 +73,7 @@
     }
 
     #name-wrap h2 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     #line {
