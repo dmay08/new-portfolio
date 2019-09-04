@@ -5,9 +5,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #C9CCD3;
+    background-color: #5b6467;
+    background-image: linear-gradient(315deg, #C2C5CD 0%, #DCDCDC 74%);
+    /* background: #C9CCD3;
     background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0.6) 0%, rgba(0,0,0,0.50) 100%);
-    background-blend-mode: lighten;
+    background-blend-mode: lighten; */
 }
 
 #skills-title {
