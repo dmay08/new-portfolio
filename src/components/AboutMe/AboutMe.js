@@ -11,7 +11,7 @@ const AboutMe = () => {
                         <br/>
                         <p className="text">Front End Developer at Lightstorm Entertainment with a passion
                             for art and science. Coding allows me to
-                            combine my love of design className="text" with the technical
+                            combine my love of design with the technical
                             aspects of programming to create visually
                             appealing and highly performant web applications.
                         </p>
