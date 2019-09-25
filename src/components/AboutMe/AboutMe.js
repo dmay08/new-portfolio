@@ -5,7 +5,7 @@ const AboutMe = () => {
     return (
         <div id="about-me-wrap">
                 <div id="pic-and-text-wrap">
-                    <img id="my-pic" className="hvr-rotate" src={require('../Images/me.jpg')} />
+                    <img id="my-pic" className="hvr-rotate" src={require('../Images/danny2.jpg')} />
                     <div id="text-wrap" className="hvr-forward">
                         <h1>About me</h1>
                         <br/>
