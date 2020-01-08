@@ -22,7 +22,7 @@
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
-    overflow: scroll;
+    /* overflow: scroll; */
     justify-content: center;
     background-color: white;
     border-radius: 10px;
